@@ -1,7 +1,7 @@
 <template>
   <nav class="flex flex-col justify-center fixed w-full top-nav relative">
     <div class="flex items-center justify-between mx-4 lg:mx-10">
-      <a href="/">
+      <a href='/'>
         <Logo />
       </a>
 
