@@ -32,8 +32,8 @@
           <div class='block mb-4'>
             <p class='text-left text-lg font-bold mb-2'>Top Categories</p>
 
-            <div class='flex-auto flex flex-row justify-between'>
-              <Category v-for='idx in 5'
+            <div class='flex-auto flex flex-row space-x-4 justify-between overflow-x-scroll'>
+              <Category v-for='idx in 54'
                         :cat-name='`Category ${idx}`'
                         :key='idx' />
             </div>

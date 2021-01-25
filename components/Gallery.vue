@@ -1,6 +1,6 @@
 <template>
   <div class='gallery-body flex flex-col'>
-    <div class='flex flex-row justify-between capitalize px-2 mb-2'>
+    <div class='md:flex md:flex-row md:justify-between capitalize px-2 mb-2'>
       <ul class='flex space-x-5 list-none inline'>
         <li>all</li>
         <li>photos</li>
@@ -9,7 +9,7 @@
         <li>360</li>
       </ul>
 
-      <div class='dropdown'>
+      <div class='dropdown mt-3 md:mt-0'>
         <div class='flex flex-row items-center space-x-1 cursor-pointer'>
           <p class='flex-auto'>recommended</p>
           <svg id="Group_214" data-name="Group 214" xmlns="http://www.w3.org/2000/svg" width="8" height="4" viewBox="0 0 8 4">
