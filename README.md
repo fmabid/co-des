@@ -1,4 +1,5 @@
-# codes
+### If you don't have Yarn installed in your PC then first of all install Yarn into your PC. Then follow the steps below.
+
 
 ## Build Setup
 
