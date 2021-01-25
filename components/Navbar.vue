@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-col justify-center fixed w-full top-nav">
+  <nav class="flex flex-col justify-center fixed w-full top-nav relative">
     <div class="flex items-center justify-between mx-4 lg:mx-10">
       <a href="/">
         <Logo />
@@ -20,7 +20,7 @@
             </svg>
           </li>
           <li class='cursor-pointer'>
-            <bliutton class="btn text-center border border-gray-300" type='button'>Submit Photos</bliutton>
+            <button class="btn text-center border border-gray-300" type='button'>Submit Photos</button>
           </li>
         </ul>
 
@@ -55,10 +55,6 @@ nav {
 
 .nav-options-container {
   width: auto;
-}
-
-.nav-options {
-  position: relative;
 }
 
 .nav-options img {
