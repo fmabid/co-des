@@ -4,7 +4,7 @@
 
     <div class='relative h-full mx-4 lg:mx-10'>
       <div class='banner flex flex-col align-middle items-center'>
-        <p class='title text-3xl w-1/2 px-8 mt-52'>
+        <p class='title text-3xl w-1/2 px-8 mt-52 pb-4'>
           Your local source of high quality images
           and videos directly from their creators
         </p>
@@ -20,6 +20,10 @@
             </g>
           </svg>
         </div>
+
+        <p class='w-1/2 px-8 text-gray-400'>
+          <span class='text-white'>Recommended:</span> summer, food, covid-19, real estate, love
+        </p>
 
       </div>
 
