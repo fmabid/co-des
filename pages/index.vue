@@ -4,12 +4,12 @@
 
     <div class='relative h-full mx-4 lg:mx-10'>
       <div class='banner flex flex-col align-middle items-center'>
-        <p class='title text-3xl w-1/2 px-8 mt-52 pb-4'>
+        <p class='title text-3xl w-10/12 lg:w-1/2 lg:px-8 mt-40 md:mt-52 lg:mt-52 pb-4'>
           Your local source of high quality images
           and videos directly from their creators
         </p>
 
-        <div class="flex flex-row bg-white w-1/2 items-center rounded-full pl-2 pr-4 py-1">
+        <div class="flex flex-row bg-white w-10/12 lg:w-1/2 items-center rounded-full pl-2 pr-4 py-1">
           <input type="text"
                  placeholder="Search photos and videos"
                  class="focus:outline-none focus:border-blue-300 rounded-l-full flex-auto py-2 px-2" />
@@ -21,14 +21,14 @@
           </svg>
         </div>
 
-        <p class='w-1/2 px-8 text-gray-400'>
+        <p class='w-10/12 lg:w-1/2 lg:px-8 text-gray-400'>
           <span class='text-white'>Recommended:</span> summer, food, covid-19, real estate, love
         </p>
 
       </div>
 
       <div class='body-wrapper'>
-        <div class='container mx-auto -mt-16 p-8 bg-white'>
+        <div class='container mx-auto lg:-mt-16 p-8 bg-white'>
           <div class='block mb-4'>
             <p class='text-left text-lg font-bold mb-2'>Top Categories</p>
 
