@@ -50,22 +50,17 @@
             </div>
 
             <div class='picture-gallery w-full'>
-              <Post v-for='index in 11'
+              <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg' alt="" class="rounded inset-0 w-full h-full object-cover mb-4" />
+              <img src='https://www.w3schools.com/w3css/img_forest.jpg' alt="" class="rounded inset-0 w-full h-full object-cover mb-4" />
+              <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg' alt="" class="rounded inset-0 w-full h-full object-cover mb-4" />
+
+              <Post v-for='index in 51'
                     :src='getImage(index)'
                     :key='index'/>
 
-              <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg' alt="" class="inset-0 w-full h-full object-cover mb-4" />
-              <img src='https://www.w3schools.com/w3css/img_forest.jpg' alt="" class="inset-0 w-full h-full object-cover mb-4" />
-              <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg' alt="" class="inset-0 w-full h-full object-cover mb-4" />
-              <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg' alt="" class="inset-0 w-full h-full object-cover mb-4" />
+              <img src='https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg' alt="" class="rounded inset-0 w-full h-full object-cover mb-4" />
             </div>
           </div>
-
-<!--          <div class='picture-gallery'>-->
-<!--            <img src="https://www.w3schools.com/w3css/img_forest.jpg" alt="" class="absolute inset-0 w-full h-full object-cover" />-->
-<!--            <img src="https://source.unsplash.com/random" alt="" class="absolute inset-0 w-full h-full object-cover" />-->
-<!--            <img src="https://source.unsplash.com/random" alt="" class="absolute inset-0 w-full h-full object-cover" />-->
-<!--          </div>-->
         </div>
       </div>
     </div>
@@ -77,7 +72,7 @@ export default {
   data() {
     return {
       imgSrc: 'https://source.unsplash.com/random',
-      picsum: 'https://picsum.photos/200/200'
+      picsum: 'https://picsum.photos/200/300'
     };
   },
   methods: {
