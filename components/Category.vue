@@ -1,5 +1,5 @@
 <template>
-  <div class='category relative block'>
+  <div class='category relative block cursor-pointer'>
     <img src='https://www.w3schools.com/w3css/img_forest.jpg' alt="dsd" class="rounded img" />
     <p class='overlay text-white text-center'>{{ catName }}</p>
   </div>
