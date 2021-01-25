@@ -29,8 +29,14 @@
 
       <div class='body-wrapper'>
         <div class='container mx-auto -mt-16 p-8 bg-white'>
-          <div class='bg-blue-200 mb-4'>
-            <p class='text-left text-lg font-bold'>Top Categories</p>
+          <div class='bg-blue-200 block mb-4'>
+            <p class='text-left text-lg font-bold mb-2'>Top Categories</p>
+
+            <div class='bg-yellow-300  flex-auto flex flex-row justify-between'>
+              <Category v-for='idx in 5'
+                        :cat-name='`Category ${idx}`'
+                        :key='idx' />
+            </div>
           </div>
 
           <div class='gallery-body flex flex-col'>
@@ -155,6 +161,5 @@ body{
     column-count: 5;
   }
 }
-
 
 </style>
