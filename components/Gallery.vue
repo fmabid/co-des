@@ -9,13 +9,22 @@
         <li>360</li>
       </ul>
 
-      <div class='flex flex-row items-center space-x-1 cursor-pointer'>
-        <p class='flex-auto'>recommended</p>
-        <svg id="Group_214" data-name="Group 214" xmlns="http://www.w3.org/2000/svg" width="8" height="4" viewBox="0 0 8 4">
-          <g id="Group_58" data-name="Group 58">
-            <path id="Path_297" data-name="Path 297" d="M284.091,242.581l4,4,4-4Z" transform="translate(-284.091 -242.581)" fill="#333"/>
-          </g>
-        </svg>
+      <div class='dropdown'>
+        <div class='flex flex-row items-center space-x-1 cursor-pointer'>
+          <p class='flex-auto'>recommended</p>
+          <svg id="Group_214" data-name="Group 214" xmlns="http://www.w3.org/2000/svg" width="8" height="4" viewBox="0 0 8 4">
+            <g id="Group_58" data-name="Group 58">
+              <path id="Path_297" data-name="Path 297" d="M284.091,242.581l4,4,4-4Z" transform="translate(-284.091 -242.581)" fill="#333"/>
+            </g>
+          </svg>
+        </div>
+
+        <div class="dropdown-content">
+          <a href="#">Most Recent</a>
+          <a href="#">Most Viewed</a>
+          <a href="#">Most Downloaded</a>
+          <a href='#'>Most Appreciated</a>
+        </div>
       </div>
     </div>
 
@@ -83,6 +92,36 @@ export default {
   .picture-gallery {
     column-count: 5;
   }
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 182px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  font-size: 16px;
+  text-align: right;
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #e8e8e8;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 </style>
